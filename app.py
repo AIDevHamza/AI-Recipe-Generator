@@ -32,7 +32,7 @@ if api_key:
 
     # Create checkboxes for dietary preferences
     dietary_preferences = col2.selectbox(
-        "Select Dietary Preferences", ["Vegetarian", "Vegan", "Gluten-Free", "Low Carb"]
+        "Select Dietary Preferences", ["Normal", "Vegetarian", "Vegan", "Gluten-Free", "Low Carb"]
     )
 
     # Input field for preparation time
